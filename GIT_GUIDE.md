@@ -78,7 +78,7 @@ Este guia reúne comandos fundamentais e os principais fluxos de trabalho (*Git 
     ```bash
     git config --global --list
     git config --local --list
-    git config --list --show-originq
+    git config --list --show-origin
     git config --system --list
     ```
 * **`.gitignore`**: Arquivo no *workdir* ou em subdiretórios para desconsiderar arquivos do rastreamento Git. Exemplo: ignorar `node_modules/` ou `.env`. [cite: 15]
