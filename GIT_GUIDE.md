@@ -74,6 +74,13 @@ Este guia reúne comandos fundamentais e os principais fluxos de trabalho (*Git 
     git config user.name [cite: 14]
     git config user.email [cite: 14]
     ```
+* **Verificar Configurações Globais e locais**:
+    ```bash
+    git config --global --list
+    git config --local --list
+    git config --list --show-originq
+    git config --system --list
+    ```
 * **`.gitignore`**: Arquivo no *workdir* ou em subdiretórios para desconsiderar arquivos do rastreamento Git. Exemplo: ignorar `node_modules/` ou `.env`. [cite: 15]
 
 ---
